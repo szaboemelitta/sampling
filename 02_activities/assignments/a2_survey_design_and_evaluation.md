@@ -40,39 +40,48 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 3
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+The purpose of the survey is to measure the relation between music taste and age. It examines Canadian citizens' taste of music and its changes as people age through a stratified quota sampling, with different age groups (e.g., 18-30, 31-40, 41-50, 51-60, 61+) constituting non-overlapping strata. Since a longitudinal study tracing the changes in individuals' music taste would require extensive resources and would take a lot of time,  retrospective questions asking about the respondents' music preferences at different stages of their lives are used instead in addition to comparing the data across age groups. The survey will collect information online.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+Target population: Canadian citizens aged 18 and older
+Sampling frame: Canadian adults who could be reached through online survey distribution (e.g, social media recruitment)
+Sampling units: Individual respondents
+Observational units: Individual respondents
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your current age?
+2. What genres do you listen to most often?
+3. Do you listen to popular music?
+4. What genres did you listen to when you were 15-17 years old? 
+5. What genres did you listen to when you were 18-30 years old? (If applicable)
+6. What genres did you listen to when you were 31-40 years old? (If applicable)
+7. What genres did you listen to when you were 41-50 years old? (If applicable)
+8. What genres did you listen to when you were 51-60 years old? (If applicable)
+9. How would you compare today's popular music to the popular music of your earlier years?
 ```
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
-```
-write your answer here
-```
+1. Sample type: stratified two-phase, multi-stage cluster probability sample
+2. Sample size: 80,000 individuals (60,000 regular sample, 20,000 oversample).
+3. Target population: Persons aged 15 years and over living in private households in Canada, excluding residents of the Yukon, Northwest Territories and Nunavut and full time residents of institutions
+4. Sampling frame: Private households
+5. Survey mode(s): Observational studies (using earlier census data) + questionnaire through telephone or electronically
+6. Timeline: 2004-2023, but the data collection period is indicated as 2023-09-15 to 2024-03-30
+7. Response rate: 40.9%, (42.2% for the regular sample and 37.1% for the oversample)
+8. Weights: Estimates were weighted to represent all persons in the target population and to account for non-response cases.
+9. Data processing: Conducted by using the Social Survey Processing Environment (SSPE), a set of generalized processing steps and utilities. Edits were performed automatically and manually at various stages of processing at macro and micro levels. Data verification was carried out using consistency and flow edits. A series of checks were done to ensure the consistency of the survey data, for example, checking the respondent's reported age against the date of birth coming from the sample file. Flow edits were used to ensure respondents followed the correct path and fix off-path situations.
+10. Cleaning, imputation, etc: Edits/cleaning were automated as well as double-checked by the head office manually. Missing records were also completed or imputed. Imputations were made through donor imputation (filling the missing information by finding the most similar respondent's corresponding entry), and were made separately for different groups of variables: personal/family income, donation-related variables, formal volunteering variables, informal volunteering variables.
+11. Sources of error: Sampling errors (due to sampling persons); non-sampling errors:  imperfect coverage and non-response, processing errors.
+12. Limitations, known biases, etc.: Efforts were made to reduce other non-sampling biases by using a well-tested questionnaire, an apt methodology, interviews, and quality control. 
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430#a3
 
 ## Rubric
 
@@ -93,9 +102,9 @@ write your answer here
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-2`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
